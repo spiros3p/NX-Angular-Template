@@ -60,6 +60,23 @@
     },
     "@nx/angular:component": {
       "style": "scss"
+    },
+    "@ngneat/spectator:spectator-component": {
+      "style": "scss",
+      "jest": true,
+      "displayBlock": true,
+      "export": true,
+      "changeDetection": "OnPush",
+      "standalone": true
+    },
+    "@ngneat/spectator:spectator-directive": {
+      "jest": true
+    },
+    "@ngneat/spectator:spectator-service": {
+      "jest": true
+    },
+    "@ngneat/spectator:spectator-pipe": {
+      "jest": true
     }
   },
   "defaultProject": "nx-angular-template",
